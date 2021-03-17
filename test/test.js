@@ -5,4 +5,4 @@ async function test(filename, ...data){
     fs.appendFile('file1.txt',  date+' -> '+data+"\r\n")
 }
 
-test('asu.txt','hasil:',[1,2]);
+test('asu.txt','hasil:',[1,2]); // test
